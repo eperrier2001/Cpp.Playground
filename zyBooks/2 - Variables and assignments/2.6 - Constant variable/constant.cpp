@@ -10,11 +10,11 @@ using namespace std;
 int main() {
    int shipWeightPounds = 10;
    int shipCostCents = 0;
-   const int FLAT_FEE_CENTS = 75;
+   int FLAT_FEE_CENTS = 75;
 
    /* Your solution goes here  */
 	shipCostCents = shipWeightPounds * FLAT_FEE_CENTS;
-	const int CENTS_PER_POUND = FLAT_FEE_CENTS + (25 / shipWeightPounds);
+	int CENTS_PER_POUND = FLAT_FEE_CENTS + (25 / shipWeightPounds);
 
    cout << "Weight(lb): " << shipWeightPounds;
    cout << ", Flat fee(cents): " << FLAT_FEE_CENTS;
