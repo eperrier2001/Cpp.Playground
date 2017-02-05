@@ -14,7 +14,7 @@ int main() {
 
    /* Your solution goes here  */
 	shipCostCents = shipWeightPounds * FLAT_FEE_CENTS;
-	const int CENTS_PER_POUND = FLAT_FEE_CENTS + (25 / shipWeightPounds);
+	int CENTS_PER_POUND = FLAT_FEE_CENTS + (25 / shipWeightPounds);
 
    cout << "Weight(lb): " << shipWeightPounds;
    cout << ", Flat fee(cents): " << FLAT_FEE_CENTS;
